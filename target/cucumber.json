@@ -1,0 +1,305 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-06T17:53:01.249Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4193713600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrms.stepdefinitions.Hooks.startTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrms.stepdefinitions.Hooks.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3356543000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate to HRMS login page",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.navigate_to_hrms_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188202400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter valid credentials",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1389896600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login button",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36681900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify dashboard is displayed",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.verify_dashboard_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 552019600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "quit the browser",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.quit_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@featureTag"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "#feature"
+          },
+          {
+            "name": "level"
+          },
+          {
+            "name": "tag"
+          },
+          {
+            "name": "@syntax"
+          },
+          {
+            "name": "#scenario"
+          },
+          {
+            "name": "level"
+          },
+          {
+            "name": "tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-06T17:53:11.071Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1774832600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrms.stepdefinitions.Hooks.startTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hrms.stepdefinitions.Hooks.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3436852500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "navigate to HRMS login page",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.navigate_to_hrms_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201106200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter invalid credentials",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.enter_invalid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 300761300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on login button",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24904600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify error message",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.verify_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 565387200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "quit the browser",
+            "match": {
+              "location": "com.hrms.stepdefinitions.LoginStepDefinition.quit_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@featureTag"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "#feature"
+          },
+          {
+            "name": "level"
+          },
+          {
+            "name": "tag"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@invalidCreds"
+          },
+          {
+            "name": "#adding"
+          },
+          {
+            "name": "multiple"
+          },
+          {
+            "name": "scenario"
+          },
+          {
+            "name": "level"
+          },
+          {
+            "name": "tags"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@featureTag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 13
+        }
+      },
+      {
+        "name": "#feature",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 20
+        }
+      },
+      {
+        "name": "level",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 29
+        }
+      },
+      {
+        "name": "tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 35
+        }
+      }
+    ]
+  }
+]
